@@ -16,7 +16,6 @@
 - model_prediction.py: 调用训练好的ckpt文件实现目标文本的预测并将正向文本添加至数据库
 - query_retrival.py: 文本检索
 #### 3）config：存储配置文件
-- hfl--chinese-roberta-wwm-ext：huggingface下Roberta模型的预训练文件，作为无法从huggingface中直接下载的替代方案
 - model_final.pth: detectron2模型路径文件，作为无法使用git clone detectron2的替代方案
 - config.yaml: detectron2模型的配置文件
 - saved_weights.ckpt: 保存classify_model.py的训练后的模型参数，用于预测时直接调用
